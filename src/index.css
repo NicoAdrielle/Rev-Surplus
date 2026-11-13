@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+*, *::before, *::after { box-sizing: border-box; }
+.hero-photo { background-image: linear-gradient(0deg,rgba(0,0,0,.45),transparent 42%),url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=2000&q=85'); background-position: center 52%; background-size: cover; }
+.part-photo { background-size: cover; background-position: center; filter: grayscale(.82); }
+.map-panel { background-color: #d9d7cf; background-image: linear-gradient(28deg,transparent 49%,#f6f4ee 49.5%,#f6f4ee 54%,transparent 54.5%),linear-gradient(144deg,transparent 43%,#f4f2eb 43.5%,#f4f2eb 49%,transparent 49.5%),linear-gradient(90deg,#d0d0c7 1px,transparent 1px),linear-gradient(#d0d0c7 1px,transparent 1px); background-size: auto,auto,42px 42px,42px 42px; }
